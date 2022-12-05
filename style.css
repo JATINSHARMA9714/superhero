@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vw;
+    background-color: #317AC7;
+}
+h1{
+    color: #98c1d9;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
+input{
+    width: 70vw;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.but{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 15px;
+}
+#image{
+    display: block;
+    position: absolute;
+    /* left: 50vw; */
+    right: 40vw;
+}

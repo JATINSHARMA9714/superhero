@@ -29,7 +29,7 @@ const getrandomhero=(id)=>{
         // console.log(json)
         const stats=getherostats(json)
         const name=`<h2>${json.name}</h2>`
-       images.innerHTML=`${name}<img src='${json.image.url}' height=200 width=200/>${stats}`
+       images.innerHTML=`${name}<img src='${json.image.url}' height=200 width=200/><h2>${stats}</h2>`
     })
 }
 
